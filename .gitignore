@@ -12,3 +12,6 @@ wheels/
 # Environment variables
 .env
 weather_agent/.env
+
+# ADK local data
+.adk/
