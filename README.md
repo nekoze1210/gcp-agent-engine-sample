@@ -39,14 +39,14 @@ uv run adk web .
 ```bash
 # 新規作成
 uv run adk deploy agent_engine \
-  --project=gaudiy-ai \
+  --project=your-project-id \
   --region=asia-northeast1 \
   --display_name="Weather Agent" \
   weather_agent
 
 # 既存インスタンスの更新
 uv run adk deploy agent_engine \
-  --project=gaudiy-ai \
+  --project=your-project-id \
   --region=asia-northeast1 \
   --display_name="Weather Agent" \
   --agent_engine_id=RESOURCE_ID \
